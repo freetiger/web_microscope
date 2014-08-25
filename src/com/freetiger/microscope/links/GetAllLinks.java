@@ -235,9 +235,11 @@ public class GetAllLinks {
 	public static void main(String[] args) {
 //		new GetAllLinks("songshuhui.net", "http://songshuhui.net/").run();
 		
-		new GetAllLinks("http://www.vaikan.com/").setUrlIncludes("vaikan.com").setClazzUrl(VaikanUrl.class).run();
+//		new GetAllLinks("http://www.vaikan.com/").setUrlIncludes("vaikan.com").setClazzUrl(VaikanUrl.class).run();
 //		String enterUrl = "http://profile.zhenai.com/login/loginactionindex.jsps?fid=&fromurl=&loginInfo=15821389004&loginmode=2&mid=&password=1161hyx&redirectUrl=&whereLogin=index&whichTV=";
 //		new GetAllLinks(enterUrl).setClazzUrl(ZhenaiUrl.class).setUrlIncludes("zhenai.com").run();
+		
+		new GetAllLinks("http://www.damai.cn/").setUrlIncludes("damai.cn").setClazzUrl(DamaiUrl.class).run();
 	}
 
 }
